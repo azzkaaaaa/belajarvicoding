@@ -1,0 +1,430 @@
+0 verbose cli /opt/homebrew/Cellar/node/26.3.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.16.0
+2 info using node@v26.3.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/azkaalmulki/Documents/GitHub/belajarvicoding/.npmrc
+5 silly config load:file:/Users/azkaalmulki/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--cache" ".npm-cache" "--fetch-retries" "1" "--fetch-timeout" "60000"
+9 verbose logfile logs-max:10 dir:/Users/azkaalmulki/Documents/GitHub/belajarvicoding/.npm-cache/_logs/2026-10-04T09_38_10_127Z-
+10 verbose logfile /Users/azkaalmulki/Documents/GitHub/belajarvicoding/.npm-cache/_logs/2026-10-04T09_38_10_127Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly idealTree buildDeps
+14 silly fetch manifest scheduler@^0.28.0
+15 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/scheduler 333ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/scheduler set size:5792098 disposed:false
+18 silly placeDep node_modules/react-dom scheduler@0.28.0 OK for: react-dom@19.3.0 want: ^0.28.0
+19 silly fetch manifest @napi-rs/lzma-linux-x64-gnu@1.5.1
+20 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu 292ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu set size:31508 disposed:false
+23 silly fetch manifest @rollup/rollup-android-arm64@4.64.0
+24 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 72ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:370907 disposed:false
+27 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.64.0
+28 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 93ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:374612 disposed:false
+31 silly fetch manifest @rollup/rollup-freebsd-arm64@4.64.0
+32 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 82ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:219115 disposed:false
+35 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.64.0
+36 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 93ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:377018 disposed:false
+39 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.64.0
+40 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 73ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:332501 disposed:false
+43 silly fetch manifest @rollup/rollup-android-arm-eabi@4.64.0
+44 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 81ms (cache revalidated)
+46 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:374618 disposed:false
+47 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.64.0
+48 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 73ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:380930 disposed:false
+51 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.64.0
+52 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 76ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:275203 disposed:false
+55 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.64.0
+56 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 73ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:372999 disposed:false
+59 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.64.0
+60 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 81ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:101736 disposed:false
+63 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.64.0
+64 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 70ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:63838 disposed:false
+67 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.64.0
+68 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 78ms (cache revalidated)
+70 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:303419 disposed:false
+71 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.64.0
+72 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 67ms (cache revalidated)
+74 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:149503 disposed:false
+75 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.64.0
+76 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 92ms (cache revalidated)
+78 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:121699 disposed:false
+79 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.64.0
+80 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 71ms (cache revalidated)
+82 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:63322 disposed:false
+83 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.64.0
+84 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 124ms (cache revalidated)
+86 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:276865 disposed:false
+87 silly fetch manifest @rollup/rollup-darwin-x64@4.64.0
+88 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-x64 124ms (cache revalidated)
+90 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:364225 disposed:false
+91 silly fetch manifest @rollup/rollup-win32-x64-gnu@4.64.0
+92 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 100ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu set size:92492 disposed:false
+95 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.64.0
+96 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 95ms (cache revalidated)
+98 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc set size:369514 disposed:false
+99 silly fetch manifest @rollup/rollup-freebsd-x64@4.64.0
+100 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 279ms (cache revalidated)
+102 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:216955 disposed:false
+103 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.64.0
+104 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 88ms (cache revalidated)
+106 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu set size:371902 disposed:false
+107 silly fetch manifest @rollup/rollup-linux-x64-musl@4.64.0
+108 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 85ms (cache revalidated)
+110 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:371344 disposed:false
+111 silly fetch manifest @rollup/rollup-openbsd-x64@4.64.0
+112 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 82ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:61691 disposed:false
+115 silly fetch manifest @rollup/rollup-openharmony-arm64@4.64.0
+116 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 71ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:102404 disposed:false
+119 silly placeDep ROOT @napi-rs/lzma-linux-x64-gnu@1.5.1 OK for: rollup@4.64.0 want: 1.5.1
+120 silly placeDep ROOT @rollup/rollup-android-arm-eabi@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+121 silly placeDep ROOT @rollup/rollup-android-arm64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+122 silly placeDep ROOT @rollup/rollup-darwin-x64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+123 silly placeDep ROOT @rollup/rollup-freebsd-arm64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+124 silly placeDep ROOT @rollup/rollup-freebsd-x64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+125 silly placeDep ROOT @rollup/rollup-linux-arm-gnueabihf@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+126 silly placeDep ROOT @rollup/rollup-linux-arm-musleabihf@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+127 silly placeDep ROOT @rollup/rollup-linux-arm64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+128 silly placeDep ROOT @rollup/rollup-linux-arm64-musl@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+129 silly placeDep ROOT @rollup/rollup-linux-loong64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+130 silly placeDep ROOT @rollup/rollup-linux-loong64-musl@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+131 silly placeDep ROOT @rollup/rollup-linux-ppc64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+132 silly placeDep ROOT @rollup/rollup-linux-ppc64-musl@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+133 silly placeDep ROOT @rollup/rollup-linux-riscv64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+134 silly placeDep ROOT @rollup/rollup-linux-riscv64-musl@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+135 silly placeDep ROOT @rollup/rollup-linux-s390x-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+136 silly placeDep ROOT @rollup/rollup-linux-x64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+137 silly placeDep ROOT @rollup/rollup-linux-x64-musl@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+138 silly placeDep ROOT @rollup/rollup-openbsd-x64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+139 silly placeDep ROOT @rollup/rollup-openharmony-arm64@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+140 silly placeDep ROOT @rollup/rollup-win32-arm64-msvc@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+141 silly placeDep ROOT @rollup/rollup-win32-ia32-msvc@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+142 silly placeDep ROOT @rollup/rollup-win32-x64-gnu@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+143 silly placeDep ROOT @rollup/rollup-win32-x64-msvc@4.64.0 OK for: rollup@4.64.0 want: 4.64.0
+144 silly fetch manifest esbuild@^0.27.0 || ^0.28.0
+145 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/esbuild 71ms (cache revalidated)
+147 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1264676 disposed:false
+148 silly placeDep node_modules/vite esbuild@0.28.2 OK for: vite@7.3.6 want: ^0.27.0 || ^0.28.0
+149 silly fetch manifest @esbuild/aix-ppc64@0.28.2
+150 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+151 silly fetch manifest @esbuild/linux-arm@0.28.2
+152 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+153 silly fetch manifest @esbuild/linux-x64@0.28.2
+154 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+155 silly fetch manifest @esbuild/sunos-x64@0.28.2
+156 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+157 silly fetch manifest @esbuild/win32-x64@0.28.2
+158 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+159 silly fetch manifest @esbuild/darwin-x64@0.28.2
+160 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+161 silly fetch manifest @esbuild/linux-ia32@0.28.2
+162 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 95ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:198596 disposed:false
+165 silly fetch manifest @esbuild/netbsd-x64@0.28.2
+166 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 82ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:197314 disposed:false
+169 silly fetch manifest @esbuild/win32-ia32@0.28.2
+170 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 250ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:199670 disposed:false
+173 silly fetch manifest @esbuild/android-arm@0.28.2
+174 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 254ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:198942 disposed:false
+177 silly fetch manifest @esbuild/android-x64@0.28.2
+178 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 259ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:197540 disposed:false
+181 silly fetch manifest @esbuild/freebsd-x64@0.28.2
+182 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 262ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:67797 disposed:false
+185 silly fetch manifest @esbuild/linux-arm64@0.28.2
+186 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+187 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 262ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:199625 disposed:false
+189 silly fetch manifest @esbuild/linux-ppc64@0.28.2
+190 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 266ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:199187 disposed:false
+193 silly fetch manifest @esbuild/linux-s390x@0.28.2
+194 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 86ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:199854 disposed:false
+197 silly fetch manifest @esbuild/openbsd-x64@0.28.2
+198 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 82ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:225217 disposed:false
+201 silly fetch manifest @esbuild/win32-arm64@0.28.2
+202 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 81ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:199017 disposed:false
+205 silly fetch manifest @esbuild/darwin-arm64@0.28.2
+206 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 91ms (cache revalidated)
+208 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:202845 disposed:false
+209 silly fetch manifest @esbuild/netbsd-arm64@0.28.2
+210 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 96ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:200565 disposed:false
+213 silly fetch manifest @esbuild/android-arm64@0.28.2
+214 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 92ms (cache revalidated)
+216 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:200576 disposed:false
+217 silly fetch manifest @esbuild/freebsd-arm64@0.28.2
+218 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 106ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:200773 disposed:false
+221 silly fetch manifest @esbuild/linux-loong64@0.28.2
+222 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 110ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:202310 disposed:false
+225 silly fetch manifest @esbuild/linux-riscv64@0.28.2
+226 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+227 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 80ms (cache revalidated)
+228 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:201471 disposed:false
+229 silly fetch manifest @esbuild/openbsd-arm64@0.28.2
+230 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 83ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:201005 disposed:false
+233 silly fetch manifest @esbuild/linux-mips64el@0.28.2
+234 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+235 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 81ms (cache revalidated)
+236 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:202383 disposed:false
+237 silly fetch manifest @esbuild/openharmony-arm64@0.28.2
+238 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+239 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 88ms (cache revalidated)
+240 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:44308 disposed:false
+241 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 76ms (cache revalidated)
+242 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:255749 disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 89ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:204216 disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 81ms (cache revalidated)
+246 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:202512 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 103ms (cache revalidated)
+248 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:49642 disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 103ms (cache revalidated)
+250 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:204633 disposed:false
+251 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 98ms (cache revalidated)
+252 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:33054 disposed:false
+253 silly placeDep ROOT @esbuild/aix-ppc64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+254 silly placeDep ROOT @esbuild/android-arm@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+255 silly placeDep ROOT @esbuild/android-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+256 silly placeDep ROOT @esbuild/android-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+257 silly placeDep node_modules/vite @esbuild/darwin-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+258 silly placeDep ROOT @esbuild/darwin-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+259 silly placeDep ROOT @esbuild/freebsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+260 silly placeDep ROOT @esbuild/freebsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+261 silly placeDep ROOT @esbuild/linux-arm@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+262 silly placeDep ROOT @esbuild/linux-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+263 silly placeDep ROOT @esbuild/linux-ia32@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+264 silly placeDep ROOT @esbuild/linux-loong64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+265 silly placeDep ROOT @esbuild/linux-mips64el@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+266 silly placeDep ROOT @esbuild/linux-ppc64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+267 silly placeDep ROOT @esbuild/linux-riscv64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+268 silly placeDep ROOT @esbuild/linux-s390x@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+269 silly placeDep ROOT @esbuild/linux-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+270 silly placeDep ROOT @esbuild/netbsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+271 silly placeDep ROOT @esbuild/netbsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+272 silly placeDep ROOT @esbuild/openbsd-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+273 silly placeDep ROOT @esbuild/openbsd-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+274 silly placeDep ROOT @esbuild/openharmony-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+275 silly placeDep ROOT @esbuild/sunos-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+276 silly placeDep ROOT @esbuild/win32-arm64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+277 silly placeDep ROOT @esbuild/win32-ia32@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+278 silly placeDep ROOT @esbuild/win32-x64@0.28.2 OK for: esbuild@0.28.2 want: 0.28.2
+279 silly reify mark retired [
+279 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/esbuild'
+279 silly reify ]
+280 silly reify mark retired [
+280 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/scheduler'
+280 silly reify ]
+281 silly reify mark retired [
+281 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@esbuild/darwin-arm64'
+281 silly reify ]
+282 silly reify mark retired [
+282 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/baseline-browser-mapping',
+282 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/baseline-browser-mapping'
+282 silly reify ]
+283 silly reify mark retired [
+283 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/browserslist',
+283 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/browserslist'
+283 silly reify ]
+284 silly reify mark retired [
+284 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/json5',
+284 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/json5'
+284 silly reify ]
+285 silly reify mark retired [
+285 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/nanoid',
+285 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/nanoid'
+285 silly reify ]
+286 silly reify mark retired [
+286 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/jsesc',
+286 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/jsesc'
+286 silly reify ]
+287 silly reify mark retired [
+287 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/rollup',
+287 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/rollup'
+287 silly reify ]
+288 silly reify mark retired [
+288 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/vite',
+288 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/vite'
+288 silly reify ]
+289 silly reify mark retired [
+289 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/update-browserslist-db',
+289 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/update-browserslist-db'
+289 silly reify ]
+290 silly reify mark retired [
+290 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/semver',
+290 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/semver'
+290 silly reify ]
+291 silly reify mark retired [
+291 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@babel/parser',
+291 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/parser'
+291 silly reify ]
+292 silly reify moves {
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/esbuild': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.esbuild-ihNYHQ5q',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/scheduler': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.scheduler-BghcHmi6',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@esbuild/darwin-arm64': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@esbuild/.darwin-arm64-YWh7LZQF',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/baseline-browser-mapping': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.baseline-browser-mapping-AV1SUaj1',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/baseline-browser-mapping': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.baseline-browser-mapping-LGwRp3g2',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/browserslist': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.browserslist-UPCOqu8Q',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/browserslist': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.browserslist-VGyDfhv8',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/json5': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.json5-RWtIDJ36',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/json5': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.json5-bhR8ikzo',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/nanoid': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.nanoid-0xIbzcGl',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/nanoid': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.nanoid-pyNQniaq',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/jsesc': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.jsesc-myfVbFSM',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/jsesc': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.jsesc-AKRgh9rs',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/rollup': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.rollup-cj40FGWJ',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/rollup': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.rollup-FsDoRP9K',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/vite': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.vite-VRlOovGf',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/vite': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.vite-r1L5ZK2O',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/update-browserslist-db': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.update-browserslist-db-fj1PbdXV',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/update-browserslist-db': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.update-browserslist-db-ahk9xQd8',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/semver': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.semver-wgIfFEhf',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/semver': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.semver-QHGI6I6J',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@babel/parser': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/@babel/.parser-uIRSrWro',
+292 silly reify   '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/parser': '/Users/azkaalmulki/Documents/GitHub/belajarvicoding/node_modules/.bin/.parser-RKmRgJby'
+292 silly reify }
+293 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser cache-miss
+294 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+295 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+296 silly packumentCache corgi:https://registry.npmjs.org/jsesc cache-miss
+297 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+298 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+299 silly packumentCache corgi:https://registry.npmjs.org/json5 cache-miss
+300 http cache @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz 0ms (cache hit)
+301 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+302 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+303 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+304 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz 0ms (cache hit)
+305 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz 0ms (cache hit)
+306 silly tarball no local data for @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz. Extracting by manifest.
+307 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz. Extracting by manifest.
+308 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz. Extracting by manifest.
+309 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz 104ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 113ms (cache miss)
+311 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+312 http fetch GET 200 https://registry.npmjs.org/jsesc 115ms (cache miss)
+313 silly packumentCache corgi:https://registry.npmjs.org/jsesc set size:undefined disposed:false
+314 http fetch GET 200 https://registry.npmjs.org/semver 117ms (cache miss)
+315 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+316 http cache https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz 5ms (cache hit)
+317 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz 118ms (cache miss)
+318 http cache https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 6ms (cache hit)
+319 http cache https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 5ms (cache hit)
+320 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 240ms (cache miss)
+321 silly packumentCache corgi:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+322 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 374ms (cache miss)
+323 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+324 http cache https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.27.tgz 3ms (cache hit)
+325 http fetch GET 200 https://registry.npmjs.org/json5 382ms (cache miss)
+326 silly packumentCache corgi:https://registry.npmjs.org/json5 set size:undefined disposed:false
+327 http cache https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 3ms (cache hit)
+328 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.9.tgz 149ms (cache revalidated)
+329 http fetch GET 200 https://registry.npmjs.org/nanoid 469ms (cache miss)
+330 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+331 http cache https://registry.npmjs.org/nanoid/-/nanoid-3.3.19.tgz 5ms (cache hit)
+332 http fetch GET 200 https://registry.npmjs.org/browserslist 536ms (cache miss)
+333 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+334 http cache https://registry.npmjs.org/browserslist/-/browserslist-4.29.3.tgz 3ms (cache hit)
+335 http fetch GET 200 https://registry.npmjs.org/rollup 903ms (cache miss)
+336 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+337 http fetch GET 200 https://registry.npmjs.org/vite 917ms (cache miss)
+338 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+339 http cache https://registry.npmjs.org/rollup/-/rollup-4.64.0.tgz 21ms (cache hit)
+340 http cache https://registry.npmjs.org/vite/-/vite-7.3.6.tgz 10ms (cache hit)
+341 http fetch GET 200 https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz 2449ms (cache miss)
+342 info run esbuild@0.28.2 postinstall node_modules/vite/node_modules/esbuild node install.js
+343 info run esbuild@0.28.2 postinstall { code: 0, signal: null }
+344 silly CHANGE node_modules/@babel/parser
+345 silly CHANGE node_modules/semver
+346 silly CHANGE node_modules/update-browserslist-db
+347 silly CHANGE node_modules/vite
+348 silly ADD node_modules/vite/node_modules/@esbuild/darwin-arm64
+349 silly ADD node_modules/vite/node_modules/esbuild
+350 silly ADD node_modules/react-dom/node_modules/scheduler
+351 silly CHANGE node_modules/rollup
+352 silly CHANGE node_modules/jsesc
+353 silly CHANGE node_modules/nanoid
+354 silly CHANGE node_modules/json5
+355 silly CHANGE node_modules/browserslist
+356 silly CHANGE node_modules/baseline-browser-mapping
+357 silly REMOVE node_modules/@esbuild/darwin-arm64
+358 silly REMOVE node_modules/scheduler
+359 silly REMOVE node_modules/esbuild
+360 warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+360 warn allow-scripts   esbuild@0.28.2 (postinstall: node install.js)
+360 warn allow-scripts
+360 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+361 verbose cwd /Users/azkaalmulki/Documents/GitHub/belajarvicoding
+362 verbose os Darwin 25.0.0
+363 verbose node v26.3.0
+364 verbose npm  v11.16.0
+365 verbose exit 0
+366 info ok
